@@ -1,0 +1,23 @@
+{
+    "name": "lucas/01_help_sandbox",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Akira Ayabe",
+            "email": "lucas.ayabe@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "Source/"
+        },
+        "files": [
+            "Source/Util/functions.php"
+        ]
+    },
+    "require": {
+        "league/plates": "^3.4",
+        "nikic/fast-route": "^1.3"
+    }
+}
